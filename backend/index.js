@@ -6,11 +6,12 @@ const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(cors({ origin: "http://localhost:3000" }));
-const resultData = [];
 
-app.get("/api/scrape", async (req, res) => {
+app.get("/api/scrape/:parameter", async (req, res) => {
+  const resultData = [];
+
   try {
-    const { parameter } = req.body;
+    const { parameter } = req.params;
     // console.log(parameter);
     const { data } = await axios.get(
       `http://www.amazon.com.br/s?k=${parameter}`

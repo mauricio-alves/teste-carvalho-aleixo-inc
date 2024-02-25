@@ -9,10 +9,9 @@ app.use(cors({ origin: "http://localhost:3000" }));
 
 app.get("/api/scrape/:parameter", async (req, res) => {
   const resultData = [];
+  const { parameter } = req.params;
 
   try {
-    const { parameter } = req.params;
-    // console.log(parameter);
     const { data } = await axios.get(
       `http://www.amazon.com.br/s?k=${parameter}`
     );
@@ -24,10 +23,8 @@ app.get("/api/scrape/:parameter", async (req, res) => {
         $(element).find(".a-size-small .a-link-normal").text().trim()
       );
       const productImageUrl = $(element).find(".s-image").attr("src");
-      // console.log("index", index);
       resultData.push({ title, rating, reviews, productImageUrl });
     });
-    // console.log(resultData);
     return res.status(200).json({
       message: "Success!",
       resultData,

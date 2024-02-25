@@ -5,7 +5,6 @@ export function Button({ parameter, setData }) {
   async function handleSubmit() {
     try {
       const { data } = await api.get(`/api/scrape/${parameter}`);
-      console.log(data);
       setData(data.resultData);
       toast.success("Pesquisa realizada com sucesso!");
     } catch (error) {

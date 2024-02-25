@@ -20,8 +20,6 @@ The objective is to create a simple script to scrape Amazon product listings fro
 
 After two years of coding with frameworks and libraries, this was a challenge that made me remember my knowledge of React, Tailwind, consuming APIs, and Vanilla Javascript methods. It was the first time I had contact with Cheerio and, for me, it was a challenge to understand how it works and learn how to use it.
 
-If you want to see the result online, please access this [deploy link](https://teste-carvalho-aleixo-inc.netlify.app/).
-
 ---
 
 # Desafio Carvalho Aleixo Inc
@@ -45,6 +43,3 @@ O objetivo é criar um script simples para extrair listagens de produtos da Amaz
 3. O servidor será executado no seu terminal.
 
 Após dois anos codificando com frameworks e bibliotecas, esse foi um desafio que me fez relembrar meus conhecimentos de React, Tailwind, consumo de APIs e métodos Vanilla Javascript. Foi a primeira vez que tive contato com o Cheerio e, para mim, foi um desafio entender como ela funciona e aprender a utilizá-la.
-
-Se você quiser ver o resultado online, acesse este [link de implantação](https://teste-carvalho-aleixo-inc.netlify.app/).
-

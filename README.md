@@ -42,4 +42,4 @@ O objetivo é criar um script simples para extrair listagens de produtos da Amaz
 2. Então, rode o comando `npm start`.
 3. O servidor será executado no seu terminal.
 
-Após dois anos codificando com frameworks e bibliotecas, esse foi um desafio que me fez relembrar meus conhecimentos de React, Tailwind, consumo de APIs e métodos Vanilla Javascript. Foi a primeira vez que tive contato com o Cheerio e, para mim, foi um desafio entender como ela funciona e aprender a utilizá-la.
+Após dois anos codificando com frameworks e bibliotecas, esse foi um desafio que me fez relembrar meus conhecimentos de React, Tailwind, consumo de APIs e métodos Vanilla Javascript. Foi a primeira vez que tive contato com o Cheerio e, para mim, foi um desafio entender como ele funciona e aprender a utilizá-lo.
